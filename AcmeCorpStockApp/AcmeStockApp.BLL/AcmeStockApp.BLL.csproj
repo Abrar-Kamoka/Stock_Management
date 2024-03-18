@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="4.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AcmeStockApp.DAL\AcmeStockApp.DAL.csproj" />
+    <ProjectReference Include="..\AcmeStockApp.Models\AcmeStockApp.Models.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,21 @@
+﻿@model AcmeStockApp.Models.StockAppUser
+
+@{
+    ViewData["Title"] = "Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h1>Dashboard</h1>
+<br />
+<h2>@ViewBag.Mysession</h2>
+
+<br />
+<br />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Dashboard">
+            <button asp-controller="Home" asp-action="Index" type="submit" value="Home" class="btn btn-primary">Menu Page</button>
+        </form>
+    </div>
+</div>
